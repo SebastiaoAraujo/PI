@@ -1,0 +1,59 @@
+.geral{
+    top: 50px;
+    float: top;
+    margin: 0 auto;
+}
+h1{
+    text-align: center;
+    color: black;
+    font: 50px Arial,serif,sans-serif;
+}
+.cadastro{
+    font: 20px arial,sans-serif;
+    margin: 0 auto;
+    text-align: center;
+}
+.button-1{
+    display: inline-block;
+    outline: none;
+    background-color: #555555;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 200px;
+}
+.button-1{
+    border-radius: 8px;
+}
+ /*.button-1:hover{
+    background-color: white;
+    color: #4CAF50;
+}*/
+.button-1:active{
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+input[type="text"]:focus{
+    background-color: #999;
+}
+input[type="text"]{
+    font: 18px Arial;
+}
+textarea:focus{
+    background-color: #999;
+}
+select:focus{
+    background-color: #999;
+}
+table{
+    max-width: 100%;
+}
